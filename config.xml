@@ -28,4 +28,11 @@
   <feature name="StatusBar">
     <param name="ios-package" onload="true" value="CDVStatusBar"/>
   </feature>
+    <plugin name="cordova-plugin-ms-azure-mobile-engagement" spec="~3.0.1">
+        <variable name="AZME_IOS_CONNECTION_STRING" value="Endpoint=" />
+        <variable name="AZME_ANDROID_CONNECTION_STRING" value="Endpoint=" />
+        <variable name="AZME_ANDROID_GOOGLE_PROJECT_NUMBER" value="" />
+        <variable name="AZME_ENABLE_NATIVE_LOG" value="true" />
+        <variable name="AZME_ENABLE_PLUGIN_LOG" value="true" />
+    </plugin>
 </widget>

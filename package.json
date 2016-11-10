@@ -34,7 +34,17 @@
     "cordova-plugin-device",
     "cordova-plugin-splashscreen",
     "cordova-plugin-console",
-    "ionic-plugin-keyboard"
+    "ionic-plugin-keyboard",
+    {
+      "variables": {
+        "AZME_IOS_CONNECTION_STRING": "Endpoint=",
+        "AZME_ANDROID_CONNECTION_STRING": "Endpoint=",
+        "AZME_ANDROID_GOOGLE_PROJECT_NUMBER": "",
+        "AZME_ENABLE_NATIVE_LOG": "true",
+        "AZME_ENABLE_PLUGIN_LOG": "true"
+      },
+      "locator": "cordova-plugin-ms-azure-mobile-engagement"
+    }
   ],
   "cordovaPlatforms": [],
   "description": "engagement-issue: An Ionic project"
